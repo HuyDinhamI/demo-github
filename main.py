@@ -1,6 +1,9 @@
 a = int(input("Nhập vào số a: "))
 
-if a == 1:
-    print("hello world")
-else:
-    print("goodbye world")
+def check(a):
+    if a == 1:
+        return "hello world"
+    else:
+        return "goodbye world"
+
+check(a)
