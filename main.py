@@ -1,9 +1,9 @@
-a = int(input("Nhập vào số a: "))
+b = int(input("Nhập vào số b: "))
 
-def check(a):
-    if a == 1:
+def check(b):
+    if b == 1:
         return "hello world"
     else:
         return "goodbye world"
 
-check(a)
+check(b)
